@@ -8,12 +8,12 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   template: `
   <section class="card" [routerLink]="['/details', carsLocation.id]">
-    <h2>{{ carsLocation.name }}</h2>
+    <h2>{{ carsLocation.nombre }}</h2>
     <div class="card-image">
       <img [src]="carsLocation.img" alt="Car Image">
     </div>
     <p>
-      {{ carsLocation.Marca }} - {{ carsLocation.Precio }}
+      {{ carsLocation.autor }} - {{ carsLocation.generos }}
     </p>
   </section>
 

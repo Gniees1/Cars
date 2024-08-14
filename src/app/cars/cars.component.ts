@@ -10,7 +10,7 @@ import { carsService } from '../cars.service';
   template: `
   <section>
     <form>
-      <input type="search" placeholder="Filtrar por Marca" #filter>
+      <input type="search" placeholder="Filtrar por Nombre" #filter>
       <button type="button" (click)="filterResults(filter.value)">Buscar</button>
     </form>
   </section>
@@ -39,6 +39,6 @@ filteredCarsList: Icars[] = [];
     if(!text) {
       this.filteredCarsList = this.carsList;
     }
-    this.filteredCarsList = this.carsList.filter((car)=> car?.Marca.toLowerCase().includes(text.toLowerCase()));
+    this.filteredCarsList = this.carsList.filter((car)=> car?.nombre.toLowerCase().includes(text.toLowerCase()));
   }
 }

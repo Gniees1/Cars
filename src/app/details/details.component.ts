@@ -14,9 +14,9 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validator, Validators} fro
     <div class="card-image">
       <img [src]="carsLocation?.img" alt="Car Image">
     </div>
-    <h2>{{ carsLocation?.name }}</h2>
+    <h2>{{ carsLocation?.nombre }}</h2>
     <p>
-      {{ carsLocation?.Marca }} - {{ carsLocation?.Precio }}
+      {{ carsLocation?.autor }} - {{ carsLocation?.generos }}
     </p>
   </section>
   <section class="form-apply">
@@ -69,13 +69,14 @@ export class DetailsComponent {
   constructor(){
     console.log(carsService);
     const carsLocationId = Number(this.route.snapshot.params['id']);
-    console.log(carsLocationId);
-    console.log(this.carsLocation);
+    console.log("este es el id",carsLocationId);
+    console.log("este es carslocation",this.carsLocation);
     this.carsService.getCarsLocationById(carsLocationId).then((carsLocation)=>{
       this.carsLocation = carsLocation;
       console.log('Cars Location:', this.carsLocation); 
     });
   }
+  
   get Nombre(){
     return this.applyForm.get('Nombre') as FormControl;
   }

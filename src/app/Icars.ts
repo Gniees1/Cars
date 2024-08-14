@@ -1,7 +1,7 @@
 export interface Icars {
     id:number;
-    name:string;
-    Marca:string;
+    nombre:string;
+    autor:string;
     img:string;
-    Precio:string;
+    generos:any;
 } 

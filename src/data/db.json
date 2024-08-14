@@ -1,83 +1,77 @@
 {
 
-    "cars": [
-        {
-            "id":0,
-            "name":"Yaris Hatchback",
-            "Marca": "Toyota",
-            "img": "https://rn-40-prod.s3.amazonaws.com/small_yarishatchback_inventory_image_836faae4f3.webp",
-            "Precio":"19.326.000"
-        },
-        {
-            "id":1,
-            "name":"Yaris Sedán",
-            "Marca": "Toyota",
-            "img":"https://rn-40-prod.s3.amazonaws.com/small_yarissedan_inventory_image_f4abb5714c.webp",
-            "Precio": "23.315.000"
-        },
-        {
-            "id":2,
-            "name":"Corolla GR-Sport",
-            "Marca":"Toyota",
-            "img":"https://ruta40-tasa-prod.s3.us-east-2.amazonaws.com/small_corollagrs_inventory_image_aefab095f5.webp",
-            "Precio":"31.424.000"
-        },
-        {
-            "id":3,
-            "name":"Corolla Cross",
-            "Marca":"Toyota",
-            "img":"https://ruta40-tasa-prod.s3.us-east-2.amazonaws.com/small_corollacross_inventory_image_4ad6d70818.webp",
-            "Precio":"33.291.000"
-        },
-        {
-            "id":4,
-            "name":"Cruze RS",
-            "Marca":"Chevrolet",
-            "img":"https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/vdc-collections/2022/cars/cruze-rs/cruze-rs/02-images/cruze-rs.jpg?imwidth=321",
-            "Precio":"27.791.900"
-        },
-        {
-            "id":5,
-            "name":"Onix",
-            "Marca": "Chevrolet",
-            "img":"https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/vdc-collections/2020/cars/onix-hb/02-images/onix-hb.jpg?imwidth=321",
-            "Precio":"22.589.000"
-        },
-        {
-            "id":6,
-            "name":"Maverick",
-            "Marca":"Ford",
-            "img":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-maverick.jpg.dam.full.high.jpg/1708974432390.jpg",
-            "Precio":"33.825.000"
-        },
-        {
-            "id":7,
-            "name":"Mustang",
-            "Marca":"Ford",
-            "img":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-mustang.jpg.dam.full.high.jpg/1681762971173.jpg",
-            "Precio":"45.000.000"
-        },
-        {
-            "id":8,
-            "name":"Kuga Hibrida",
-            "Marca":"Ford",
-            "img":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-kuga-hibrida.jpg.dam.full.high.jpg/1692821713136.jpg",
-            "Precio":"67.000.000"
-        },
-        {
-            "id":9,
-            "name":"Renegade Sport MT5",
-            "Marca":"Jeep",
-            "img":"https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2022/renegade-2022/sport-mt5/Renegade_Sport_Branco_Polar-mt5-jellie.png.img.300.png",
-            "Precio":"29.623.000"
-        },
-        {
-            "id":10,
-            "name":"Compass Sport",
-            "Marca":"Jeep",
-            "img":"https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2022/compass/descripcion-general/modelizer/sport-t270/sport2025.png.img.300.png",
-            "Precio":"37.120.000"
-        }
+    "Libros": [
+       {
+        "id":"0",
+        "nombre":"El Principito",
+        "autor":"Antoine de Saint-exupery",
+        "genero":["infantil","filosofia"],
+        "img":"https://imagessl.casadellibro.com/t1e/c/63/principito.png"
+       },
+       {
+        "id":"1",
+        "nombre":"1984",
+        "autor":"George Orwell",
+        "genero":["distopia","ciencia ficcion"],
+        "img":"https://images.cdn1.buscalibre.com/fit-in/360x360/b0/39/b039af065268818b7bd3b0e016f8db65.jpg"
+       },
+       {
+        "id":"2",
+        "nombre":"Orgullo y prejuicio",
+        "autor":"Jane Austen",
+        "genero":["romance","literatura clasica"],
+        "img":"https://www.elejandria.com/covers/Orgullo_y_prejuicio-Jane_Austen-md.png"
+       },
+       {
+        "id":"4",
+        "nombre":"El nombre del viento",
+        "autor":"Patrick Rothfuss",
+        "genero":["fantasia","aventura"],
+        "img":"https://images.cdn3.buscalibre.com/fit-in/360x360/a7/90/a790dff70defe5c61b66fd73716b6e30.jpg"
+       },
+       {
+        "id":"5",
+        "nombre":"El Hobbit",
+        "autor":"J.R.R Tolkien",
+        "genero":["fantasia","aventura"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuF_P_JCGOfdvkd_T8htN7TpbCYgAM2Ic2Cg&s"
+       },
+       {
+        "id":"6",
+        "nombre":"Game of Thrones",
+        "autor":"George R.R Martin",
+        "genero":["fantasia","politica"],
+        "img":"https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+       },
+       {
+        "id":"7",
+        "nombre":"El Mago",
+        "autor":"Terry Goodkind",
+        "genero":["fantasia","aventura"],
+        "img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO1vqSyZiLnORVQLhAzq7LpE5h7BcWnxoVRXPakl1Jr_qu6cd3re4YGmL9BUd8bLvkw4y_JRpewnSDlkZbWra69RcGIh4EhX-cw7JZDnAO71zJVrbwExpWwtlQZxDBNnuJSItQ3Frc384/s1600/wizards-first-rule.jpg"
+       },
+       {
+        "id": "8",
+        "nombre":"Cumbres borrascosas",
+        "autor":"Emily Bronte",
+        "genero":["romance","drama"],
+        "img":"https://images.cdn2.buscalibre.com/fit-in/360x360/9d/1e/9d1eeb1efc0787150068bcd341db3e57.jpg"
+       },
+       {
+        "id":"9",
+        "nombre":"Posdata: Te amo",
+        "autor":"Cecelia Ahern",
+        "genero":["romance","drama"],
+        "img":"https://es.web.img3.acsta.net/pictures/15/11/12/08/41/395091.jpg"
+       },
+       {
+        "id":"10",
+        "nombre":"La ladrona de libros",
+        "autor":"Markus Zusak",
+        "genero":["romance","drama","historia"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzPuaZQzGUmqDue8zTPEQ7HzPY1yzXY1kXA&s"
+       }
 
     ]
+   
 }
